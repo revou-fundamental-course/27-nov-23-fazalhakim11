@@ -1,0 +1,150 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+}
+
+.logo{
+    color: rgb(46, 123, 187);
+    margin: 0;
+}
+
+.button-main{
+    color: aliceblue;
+    background-color: rgb(46, 123, 187);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    align-content: center;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.button-main:focus{
+    transform: translateY(3px);
+}
+
+.button-main:hover {
+    background-color: rgb(37, 102, 155);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* CONTENT */
+
+section{
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+#luas{
+    background-color: rgb(46, 123, 187);
+    border-radius: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 20px;
+    /* width: 500px; */
+    padding: 10px;
+}
+
+#hasilLuas {
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+
+input{
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 10px;
+}
+
+.button-center{
+    align-self: center;
+}
+
+.button-action{
+    color: rgb(46, 123, 187);
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button-action:focus{
+    transform: translateY(3px);
+}
+
+.button-action:hover{
+    background-color: rgb(209, 220, 230);
+}
+
+#keliling{
+    background-color: rgb(46, 123, 187);
+    border-radius: 10px;
+    /* display: none; */
+    flex-direction: column;
+    gap: 20px;
+    /* width: 500px; */
+    padding: 10px;
+}
+
+#hasilKeliling{
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+
+footer p{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(46, 123, 187);   
+    margin: 10px 0 0;
+    padding: 20px;
+}
+
+@media (max-width: 868px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        gap: 10px;
+        
+    }
+}
+
+@media (max-width: 400px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .logo{
+        text-align: center;
+    }
+}

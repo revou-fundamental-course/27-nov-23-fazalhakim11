@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KALTIK</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <style>
+        .d-flex{
+            display: flex;
+        }
+        .d-none{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Kaltik</h1>
+        <div>
+            <button id="btnLuas" class="button-main">Luas Segitiga</button>
+            <button id="btnKeliling" class="button-main">Keliling Segitiga</button>
+        </div>
+    </header>
+
+    <section>
+        <div id="luas" class="d-flex">
+            <h2>Luas Segitiga</h2>
+            <img src="Assets/Luas-segitiga.png" alt="">
+            <input id="inputAlas" type="number" placeholder="Alas">
+            <input id="inputTinggi" type="number" placeholder="Tinggi">
+            <p id="hasilLuas"></p>
+            <div class="button-center">
+                <button id="btn-hitung" class="button-action">Hitung</button>
+                <button id="btn-reset" class="button-action">Reset</button>
+            </div>
+        </div>
+        
+        <div id="keliling" class="d-none">
+            <h2>Keliling Segitiga</h2>
+            <img src="Assets/Keliling-segitiga.png" alt=""> 
+            <input id="inputSisi1" type="number" placeholder="Sisi 1">
+            <input id="inputSisi2" type="number" placeholder="Sisi 2">
+            <input id="inputSisi3" type="number" placeholder="Sisi 3">
+            <p id="hasilKeliling"></p>
+            <div class="button-center">
+                <button id="btnHitung" class="button-action">Hitung</button>
+                <button id="btnReset" class="button-action">Reset</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            Copy right @fazalhakim11
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
