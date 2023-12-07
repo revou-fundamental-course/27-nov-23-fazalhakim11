@@ -101,8 +101,7 @@ input{
 }
 
 #keliling{
-    /* background-color: rgb(46, 123, 187); */
-    background-color: brown;
+    background-color: rgb(46, 123, 187);
     border-radius: 10px;
     /* display: none; */
     flex-direction: column;
